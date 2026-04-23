@@ -1,13 +1,13 @@
 {% set name = "plotille" %}
-{% set version = "5.0.0" %}
+{% set version = "6.0.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/plotille-{{ version }}.tar.gz
-  sha256: 99e5ca51a2e4c922ead3a3b0863cc2c6a9a4b3f701944589df10f42ce02ab3dc
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/plotille-{{ version }}.tar.gz
+  sha256: 02bd94d6fb433ed1bfb7fb9c62db5975c6d9738e96a868ac1abfcc2dd586b4b8
 
 build:
   noarch: python
